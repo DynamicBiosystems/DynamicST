@@ -17,7 +17,7 @@ mkdir DynamicST
 
 tar -zxf dynamicst_v1.0.0.tar.gz -C DynamicST
 
-Prepend the DynamicST directory to your $PATH. This will allow you to invoke the DynamicST command.
+Prepend the DynamicST/dynamicst_v1.0.0 directory to your $PATH. This will allow you to invoke the DynamicST command.
 ```
 
 ### Manual
