@@ -11,7 +11,7 @@ DynamicST is a set of analysis pipelines that process DynaSpatail data with brig
 Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.0).
 
 ```shell
-# download DynamicST.tar.gz
+# download dynamicst_v1.0.0.tar.gz
 
 mkdir DynamicST
 
