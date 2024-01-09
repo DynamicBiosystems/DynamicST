@@ -15,7 +15,7 @@ Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicEX/rel
 
 mkdir DynamicST
 
-tar -zxf DynamicST.tar.gz -C DynamicST
+tar -zxf dynamicst_v1.0.0.tar.gz -C DynamicST
 
 Prepend the DynamicST directory to your $PATH. This will allow you to invoke the DynamicST command.
 ```
