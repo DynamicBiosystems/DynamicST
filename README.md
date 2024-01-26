@@ -2,7 +2,7 @@
 
 ---
 
-DynamicST is a set of analysis pipelines that process DynaSpatail data with brightfield images. DynamicST allows users to map the whole transcriptome in  fresh frozen (FF) tissues.
+DynamicST is a set of analysis pipelines that process DynaSpatial data with brightfield images. DynamicST allows users to map the whole transcriptome in  fresh frozen (FF) tissues.
 
 ### Install DynamicST 1.0.0
 
