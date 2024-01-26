@@ -12,11 +12,11 @@ DynamicST converts raw images and fastq files into high-quality digital expressi
 #### 2.Image Correction: 
 The software automatically detects reference lines on H&E images and corrects the images using these reference lines, ensuring that rotation, distortion, and other anomalies do not impact the final detection results and maintaining the correspondence between H&E images and the chip.
 
-#### 3.Tissue Automatic Detection: 
+#### 3.Tissue Detection: 
 The software automatically distinguishes between background and spots covered by tissue based on the corrected H&E images using algorithms.
 
 #### 4.Data Visualization: 
-The software provides intuitive visualization results, including UMI distribution images, clustering plots, and saturation curve plots.
+The software provides intuitive visualization results, including UMI distribution plots, clustering plots, and saturation curve plots.
 
 #### 5.Integration with Other Tools: 
 DynamicST is compatible with popular bioinformatics workflows, including Seurat and scanpy, allowing users to perform further analysis of DynaSpatial data.
