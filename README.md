@@ -23,20 +23,20 @@ DynamicST is compatible with popular bioinformatics workflows, including Seurat 
 
 DynamicST boasts powerful analytical capabilities, empowering scientists to extract insights from complex DynaSpatial gene expression data and advancing our understanding of tissue architecture, cellular microenvironment interactions, and disease biology. Its applications span across multiple disciplines in the life sciences, contributing to fields such as cancer research, neuroscience, and developmental biology.
 
-### Install DynamicST 1.0.0
+### Install DynamicST 1.0.1
 
 ----
 
 Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.1).
 
 ```shell
-# download dynamicst_v1.0.0.tar.gz
+# download dynamicst_v1.0.1.tar.gz
 
 mkdir DynamicST
 
-tar -zxf dynamicst_v1.0.0.tar.gz -C DynamicST
+tar -zxf dynamicst_v1.0.1.tar.gz -C DynamicST
 
-Prepend the DynamicST/dynamicst_v1.0.0 directory to your $PATH. This will allow you to invoke the DynamicST command.
+Prepend the DynamicST/dynamicst_v1.0.1 directory to your $PATH. This will allow you to invoke the DynamicST command.
 ```
 
 ### Manual
