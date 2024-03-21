@@ -30,13 +30,13 @@ DynamicST boasts powerful analytical capabilities, empowering scientists to extr
 Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.2).
 
 ```shell
-# download dynamicst_v1.0.1.tar.gz
+# download dynamicst_v1.0.2.tar.gz
 
 mkdir DynamicST
 
-tar -zxf dynamicst_v1.0.1.tar.gz -C DynamicST
+tar -zxf dynamicst_v1.0.2.tar.gz -C DynamicST
 
-Prepend the DynamicST/dynamicst_v1.0.1 directory to your $PATH. This will allow you to invoke the DynamicST command.
+Prepend the DynamicST/dynamicst_v1.0.2 directory to your $PATH. This will allow you to invoke the DynamicST command.
 ```
 
 ### Manual
