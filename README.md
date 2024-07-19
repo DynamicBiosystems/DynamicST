@@ -27,7 +27,7 @@ DynamicST boasts powerful analytical capabilities, empowering scientists to extr
 
 ----
 
-Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.2).
+Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.4).
 
 ```shell
 # download dynamicst_v1.0.2.tar.gz
