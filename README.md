@@ -95,7 +95,7 @@ DynamicST mkref \
 
 ```shell
 #The input folder must contain fastq files, with the same file format as sampleName_S1_L001_R1_001.fastq.gz
-DynamicST count --sample sampleName --id sampleName --inputdir rawdata/ --gtf Homo_sapiens.GRCh38.99.gtf --transcriptome Homo_sapiens_GRCh38  --image HE.tif --CBcoordinate barcode_coordinate.txt --alignment alignment.json --outputdir result
+DynamicST count --sample sampleName --id sampleName --inputdir rawdata/ --gtf Homo_sapiens.GRCh38.99.gtf --transcriptome Homo_sapiens_GRCh38  --image HE.tif  --alignment alignment.json --outputdir result
 ```
 
 The detailed documentation of the web_summary.html in the results can be found at [summary](https://github.com/DynamicBiosystems/DynamicST/blob/main/doc/web_summary.md).
