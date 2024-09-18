@@ -14,6 +14,10 @@ Fraction of reads with barcodes that match the whitelist after barcode correctio
 
 The fraction of reads originating from an already-observed UMI. This is a function of library complexity and sequencing depth. More specifically, this is the fraction of confidently mapped, valid Spot-barcode, valid UMI reads that had a non-unique (Spot-barcode, UMI, gene).
 
+- **Q30 Bases in CB+UMI**
+
+Q30 Bases in cell barcode&UMI
+
 - **GC Content**
 
 GC Content.
@@ -64,20 +68,20 @@ The number of genes with at least one UMI count in any tissue covered spot.
 
 - **Reads Mapped to Genome**
 
-Fraction of reads that mapped to the genome.
+Fraction of valid-barcode reads that mapped to the genome.
 
 - **Reads Mapped Confidently to Genome**
 
-Fraction of reads that mapped uniquely to the genome.
+Fraction of valid-barcode reads that mapped uniquely to the genome.
 
 - **Reads Mapped Confidently to Intergenic Regions**
 
-Fraction of reads that mapped uniquely to an intergenic region of the genome.
+Fraction of valid-barcode reads that mapped uniquely to an intergenic region of the genome.
 
 - **Reads Mapped Confidently to Intronic Regions**
 
-Fraction of reads that mapped uniquely to an intronic region of the genome.
+Fraction of valid-barcode reads that mapped uniquely to an intronic region of the genome.
 
 - **Reads Mapped Confidently to Exonic Regions**
 
-Fraction of reads that mapped uniquely to an exonic region of the genome.
+Fraction of valid-barcode reads that mapped uniquely to an exonic region of the genome.
