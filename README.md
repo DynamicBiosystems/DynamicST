@@ -1,4 +1,4 @@
-### DynamicST introduction test
+### DynamicST introduction
 
 ---
 
