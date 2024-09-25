@@ -17,7 +17,7 @@ DynamicST is compatible with popular bioinformatics workflows, including Seurat 
 
 DynamicST boasts powerful analytical capabilities, empowering scientists to extract insights from complex DynaSpatial gene expression data and advancing our understanding of tissue architecture, cellular microenvironment interactions, and disease biology. Its applications span across multiple disciplines in the life sciences, contributing to fields such as cancer research, neuroscience, and developmental biology.
 
-### Install DynamicST 1.0.5
+### Installation
 
 ----
 
@@ -34,11 +34,6 @@ Prepend the DynamicST/dynamicst_v1.0.5 directory to your $PATH. This will allow 
 ```
 
 ### Manual
-
----
-
-#### params
-
 ---
 
 #### mkref
@@ -67,7 +62,7 @@ Prepend the DynamicST/dynamicst_v1.0.5 directory to your $PATH. This will allow 
 - `--CBposition`: Position of Cell Barcode(s) on the barcode read (0-base). Default: `0_0_0_7 0_38_0_45`.
 - `--UMIposition`: Position of the UMI on the barcode read, same as CBposition (0-base). Default: `0_46_0_57`.
 - `--cores`: Set max cores the pipeline may request at one time; default: 16.
-#### Quick start
+### Quick start
 
 ---
 
