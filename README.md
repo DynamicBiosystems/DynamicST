@@ -85,6 +85,8 @@ DynamicST mkref \
 
 ```shell
 #The input folder must contain fastq files, with the same file format as sampleName_S1_L001_R1_001.fastq.gz
+
+#polyA-based
 DynamicST count  \
 --sample sampleName \
 --id sampleName \
@@ -93,6 +95,19 @@ DynamicST count  \
 --transcriptome Homo_sapiens_GRCh38 \
 --image HE.tif \
 --alignment alignment.json \
+--outputdir result
+
+#probe-based
+DynamicST count  \
+--sample sampleName \
+--id sampleName \
+--inputdir rawdata \
+--gtf Homo_sapiens.GRCh38.99.gtf \
+--transcriptome Homo_sapiens_GRCh38 \
+--image sampleName_tissue_image.tif \
+--dynaimage sampleName_dynaimage.tif
+--alignment alignment.json \
+--probe-set dynamicst_v1.0.7/db/probe_human.csv
 --outputdir result
 ```
 
