@@ -149,7 +149,7 @@ DynamicST count-ribo  \
 --image sampleName_tissue_image.tif \
 --dynaimage sampleName_dynaimage.tif
 --alignment alignment.json \
---probe-set dynamicst_v1.0.9/db/probe_human.csv \
+--probe-set path/translatome_probe.csv \
 --probe-set-ribo dynamicst_v1.0.9/db/rrna_probe.csv \
 --RBposition 0_25 \
 --mRNAposition 77_127 \
