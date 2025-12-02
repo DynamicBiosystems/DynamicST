@@ -94,6 +94,7 @@ DynamicST count  \
 --gtf Homo_sapiens.GRCh38.99.gtf \
 --transcriptome Homo_sapiens_GRCh38 \
 --image HE.tif \
+--r2-length 91 \
 --alignment alignment.json \
 --outputdir result
 
@@ -104,6 +105,7 @@ DynamicST count  \
 --inputdir rawdata \
 --gtf Homo_sapiens.GRCh38.99.gtf \
 --transcriptome Homo_sapiens_GRCh38 \
+--r2-length 50 \
 --image sampleName_tissue_image.tif \
 --dynaimage sampleName_dynaimage.tif
 --alignment alignment.json \
