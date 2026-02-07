@@ -62,6 +62,8 @@ Prepend the DynamicST/dynamicst_v1.0.6 directory to your $PATH. This will allow 
 - `--CBposition`: Position of Cell Barcode(s) on the barcode read (0-base). Default: `0_0_0_7 0_38_0_45`.
 - `--UMIposition`: Position of the UMI on the barcode read, same as CBposition (0-base). Default: `0_46_0_57`.
 - `--cores`: Set max cores the pipeline may request at one time; default: 16.
+
+Note that the probe-set file is located in the db subdirectory under the software's installation directory
 ### Quick start
 
 ---
