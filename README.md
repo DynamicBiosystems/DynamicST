@@ -31,9 +31,8 @@ mkdir DynamicST
 tar -zxf dynamicst_v1.0.7.tar.gz -C DynamicST
 
 1.2 Prepend the DynamicST/dynamicst_v1.0.7 directory to your $PATH. This will allow you to invoke the DynamicST command.
-vim ~/.bashrc
-# Add the absolute path of the software to be filled in on the last line
-export PATH=$PATH:/path/to/software/installation/DynamicST/dynamicst_v1.0.7/bin
+
+echo "PATH=\$PATH:/path/to/software/installation/DynamicST/dynamicst_v1.0.7/bin" >>~/.bashrc
 source ~/.bashrc
 
 1.3 Successful installation testing
