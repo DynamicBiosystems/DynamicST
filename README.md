@@ -21,7 +21,7 @@ DynamicST boasts powerful analytical capabilities, empowering scientists to extr
 
 ----
 
-Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.6).
+Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicST/releases/tag/v1.0.7).
 
 ```shell
 1.1 download dynamicst_v1.0.7.tar.gz
@@ -32,7 +32,7 @@ tar -zxf dynamicst_v1.0.7.tar.gz -C DynamicST
 
 1.2 Prepend the DynamicST/dynamicst_v1.0.7 directory to your $PATH. This will allow you to invoke the DynamicST command.
 
-echo "PATH=\$PATH:/path/to/software/installation/DynamicST/dynamicst_v1.0.7/bin" >>~/.bashrc
+echo "export PATH=\$PATH:$(pwd)/DynamicST/dynamicst_v1.0.7/bin" >>~/.bashrc
 source ~/.bashrc
 
 1.3 Successful installation testing
@@ -78,7 +78,7 @@ DynamicSD mkref \
 
 #### count
 
-For polyA-based capture
+For DynaSpatial V1（polyA-based capture）
 
 ```shell
 
@@ -95,7 +95,7 @@ DynamicST count  \
 
 ```
 
-For probe-based capture
+For DynaSpatial V2（probe-based capture）
 
 ```shell
 
@@ -113,7 +113,7 @@ DynamicST count \
   --outputdir result
 
 ```
-For array-based capture
+For DynaSpatial V3（polyA-based capture）
 
 ```shell
 
